@@ -14,6 +14,11 @@ public class sublen {
                 co = 0;
             }
         }
-        System.out.println(len);
+        if(co>len){
+            System.out.println(co);
+        }
+        else{
+            System.out.println(len-1);
+        }
     }
 }
